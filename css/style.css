@@ -1,0 +1,39 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+a { color: #2f2faf; }
+a, a:hover {
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+a:hover { color: #ff4060; }
+
+*:focus {outline: none;}
+
+.padding20 {padding: 20px;}
+.rounded5 {border-radius: 5px;}
+
+.subsideBackground {background: #eee;}
+
+footer a, footer a:hover {
+	color: black;
+	text-decoration: none;
+	border-style: 1px dotted #faa;
+}
+footer a:hover {
+	color: #ff4060;
+	text-decoration: none;
+	border-style: 1px dotted #faa;
+}
+footer {
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	border-style: 1px solid;
+}
+
+span.editable, .note-editor {
+	border-radius: 3px !important;
+	border: 1px dotted #c7c1ed !important;
+}
