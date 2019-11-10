@@ -21,9 +21,9 @@
     </head>
 
     <body>
-        <?= $Wcms->alerts() ?>
         <?= $Wcms->settings() ?>
-        
+        <?= $Wcms->alerts() ?>
+
         <div class="navbar navbar-default" role="navigation">
     		<div class="container">
     			<div class="navbar-header">
