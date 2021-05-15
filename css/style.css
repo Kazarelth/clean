@@ -2,7 +2,19 @@ html {
 	min-height: 100%;
 	position: relative;
 }
-a { color: #2f2faf; }
+
+body {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  line-height: 1.45;
+  text-rendering: optimizeLegibility;
+  color: #232323;
+  background: #E5E5E5;
+  word-wrap: break-word;
+  margin: 10px 15px;
+}
+
+a { color: #797E81; }
 a, a:hover {
 	text-decoration: none;
 	border-bottom: 1px dotted #fff;
