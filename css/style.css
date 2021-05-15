@@ -14,6 +14,17 @@ body {
   margin: 10px 15px;
 }
 
+::selection {
+  /*background: #b3d4fd;*/
+  background: #cfc6c7;
+/*  text-shadow: .03em 0 #7a6f6f, -.03em 0 #7a6f6f, 0 .03em #7a6f6f, 0 -.03em #7a6f6f, .06em 0 #7a6f6f, -.06em 0 #7a6f6f, .09em 0 #7a6f6f, -.09em 0 #7a6f6f, .12em 0 #7a6f6f, -.12em 0 #7a6f6f;
+*/}
+
+::-moz-selection {
+  background: #cfc6c7;
+ /* text-shadow: .03em 0 #7a6f6f, -.03em 0 #7a6f6f, 0 .03em #7a6f6f, 0 -.03em #7a6f6f, .06em 0 #7a6f6f, -.06em 0 #7a6f6f, .09em 0 #7a6f6f, -.09em 0 #7a6f6f, .12em 0 #7a6f6f, -.12em 0 #7a6f6f;
+*/}
+
 a { color: #797E81; }
 a, a:hover {
 	text-decoration: none;
